@@ -1,15 +1,15 @@
 {
   "name": "plugger",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Utility for loading plugins in specified folders",
   "main": "lib/plugger.js",
   "scripts": {
-    "test": "DEBUG=hooker mocha --reporter spec"
+    "test": "DEBUG=plugger,hooker mocha --reporter spec"
   },
   "author": "Shirish Kamath",
   "license": "MIT",
   "dependencies": {
     "debug": "^0.8.0",
-    "hooker": "^1.0.0"
+    "hooker": "^0.1.0"
   }
 }
